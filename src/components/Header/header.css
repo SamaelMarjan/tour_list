@@ -1,0 +1,34 @@
+.header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(18, 57, 231);
+}
+
+.navbar__sec {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    gap: 1rem;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.navbar__sec a {
+    color: #fff;
+}
+
+.navbar__sec a:hover {
+    background-color: red;
+}
